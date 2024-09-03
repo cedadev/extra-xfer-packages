@@ -1,6 +1,6 @@
 Summary: meta-package for JASMIN xfer machines
 Name: jasmin-xfer
-Version: 1.1
+Version: 1.2
 Release: 1%{?dist}
 BuildArch: noarch
 License: GPLv2+
@@ -13,7 +13,9 @@ Requires: python3-requests
 Requires: python3.11
 Requires: python3.11-requests
 Requires: rclone
+Requires: rsync
 Requires: screen
+Requires: s3cmd
 Requires: xterm
 
 %description
